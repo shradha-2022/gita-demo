@@ -11,10 +11,10 @@ jobs:
      steps:
        - name: Test pahse
          run: echo "Running test cases"
-   Deploy:
+  deploy:
       runs-on: ubuntu-latest
-   steps:
-     - name: Deploy Phase  
-       run: echo"Deploying the app"
+      steps:
+        - name: Deploy the App  
+          run: echo "Deploying the app"
 
       
